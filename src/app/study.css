@@ -1,0 +1,6 @@
+/* Deliberate study adaptations, kept separate from the measured cascade. */
+:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 5px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition-duration: 0s !important; }
+}

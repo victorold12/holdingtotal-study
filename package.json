@@ -1,0 +1,30 @@
+{
+  "name": "holdingtotal-interface-study",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "python scripts/extract-reference.py",
+    "dev": "next dev --hostname 127.0.0.1 --port 3081",
+    "build": "next build",
+    "build:pages": "node scripts/build-pages.mjs",
+    "start": "next start --hostname 127.0.0.1 --port 3081",
+    "typecheck": "tsc --noEmit",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.28",
+    "react": "19.1.10",
+    "react-dom": "19.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "autoprefixer": "10.4.21",
+    "postcss": "8.5.6",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.8.3",
+    "playwright": "1.64.1"
+  }
+}

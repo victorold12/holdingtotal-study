@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.next-pages/
+out/
+tsconfig.tsbuildinfo
+*.log
+reference/scripts-export/
+reference/

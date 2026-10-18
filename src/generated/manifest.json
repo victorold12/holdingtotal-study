@@ -1,0 +1,22 @@
+{
+  "source": "https://holdingtotal.com.br/imersao/",
+  "html_sha256": "2209083c56b5762e78e2edaed3316c4b44766e08e7d372100b2fcd0e17c15d4e",
+  "live_dom_sha256": "2ac1566746491fe00a3429f169cfcd3e0d4cff602382e00f600ddf248ba2af41",
+  "css_sha256": "745f520aaaf2a4b6ab509c600ccc2e2217b1244d8bdb708688801ae11eddc9f4",
+  "sections": [
+    "Hero",
+    "Comparison",
+    "AlertBanner",
+    "Testimonials",
+    "Audience",
+    "Offer",
+    "Guarantee",
+    "Mentor",
+    "Faq",
+    "FinalParallax",
+    "Footer"
+  ],
+  "tokens": 62,
+  "faq": 4,
+  "videos": 5
+}
